@@ -1,0 +1,59 @@
+.warning {
+    color: #cb4b16;
+}
+
+.slides section .img_grid {
+    width: 150px;
+    height: 150px;
+    background-color: #eee8d5;
+}
+
+.img_overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("../img/platforms.png");
+    display: none;
+}
+
+.slides section .diagram {
+    background: none;
+    border: none;
+    padding: 20px;
+}
+
+.white {
+    color: #eee8d5;
+}
+
+.rect {
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.en {
+    font-size: 1.1em !important;
+}
+
+.slides table .td-small {
+    font-size: 0.4em;
+}
+
+.slides table .turn {
+    transform: translateY(50%) rotate(90deg);
+    display: inline-block;
+    width: 100px;
+    height: 48px;
+}
+
+.vertical table th {
+    vertical-align: top;
+}
+
+.vertical tbody td {
+    text-align: center;
+}
